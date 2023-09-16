@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff2e9"
+    tools:context=".feedback">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="240dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="1dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="800sp"
+        android:layout_height="70sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="230sp"
+        android:fontFamily="cursive"
+        android:text="Customer Review"
+        android:textColor="#713f12"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="289dp"
+        android:layout_height="45sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="340sp"
+        android:text="First Name*"
+        android:textColor="#704e08"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="350dp"
+        android:layout_height="45sp"
+        android:layout_marginLeft="215sp"
+        android:layout_marginTop="340sp"
+        android:text="Second Name*"
+        android:textColor="#704e08"
+        android:textSize="26sp"
+        tools:layout_editor_absoluteX="421dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="289dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="440sp"
+        android:text="Email*"
+        android:textColor="#704e08"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="38sp"
+        tools:layout_editor_absoluteY="742dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="289dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="540sp"
+        android:text="Your feedback"
+        android:textColor="#704e08"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="934dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="711dp"
+        android:layout_height="60sp"
+        android:layout_marginLeft="6sp"
+        android:layout_marginRight="5sp"
+        android:layout_marginTop="580sp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="#704e08" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress3"
+        android:layout_width="713dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        android:layout_marginTop="460sp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="#704e08" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="170sp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="13sp"
+        android:layout_marginTop="380sp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="190sp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="230sp"
+        android:layout_marginTop="380sp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/mainmenu"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTextEmailAddress2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/round_button"
+        android:text="submit"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+</RelativeLayout>

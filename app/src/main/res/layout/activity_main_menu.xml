@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/action5"
+    android:layout_width="match_parent"
+    android:background="#fff2e9"
+    android:layout_height="match_parent"
+    tools:context=".main_menu">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="125dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            app:srcCompat="@drawable/cuppuccino_logo" />
+
+        <TextView
+            android:id="@+id/cappuccino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="170dp"
+            android:layout_toRightOf="@id/imageView2"
+            android:fontFamily="sans-serif"
+            android:text="cappuccino"
+            android:textSize="25dp"
+            tools:layout_editor_absoluteY="89dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="125dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/imageView2"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="118dp"
+            app:srcCompat="@drawable/latte_logo" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cappuccino"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="57dp"
+            android:layout_marginTop="230dp"
+            android:layout_marginEnd="134dp"
+            android:fontFamily="sans-serif"
+            android:text="Latte"
+            android:textSize="28dp" />
+
+        <ImageView
+            android:id="@+id/mochaa"
+            android:layout_width="125dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/imageView2"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-17dp"
+            app:srcCompat="@drawable/mocha_logo" />
+
+        <ImageView
+            android:id="@+id/espresso"
+            android:layout_width="125dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/mochaa"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="115dp"
+            app:srcCompat="@drawable/espresso_logo" />
+
+        <TextView
+            android:id="@+id/textmocca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="46dp"
+            android:layout_toRightOf="@id/mochaa"
+            android:fontFamily="sans-serif"
+            android:text="mocca"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="170dp"
+            tools:layout_editor_absoluteY="228dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:layout_below="@id/textmocca"
+            android:layout_alignRight="@id/espresso"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="225dp"
+            android:layout_marginEnd="113dp"
+            android:layout_marginRight="-156dp"
+            android:fontFamily="sans-serif"
+            android:rotationX="1"
+            android:text="espresso"
+            android:textSize="28dp" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+        <Button
+            android:id="@+id/action1"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="167dp"
+            android:layout_marginEnd="7dp"
+            android:background="@drawable/round_button"
+            android:text=">"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/action2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="433dp"
+            android:layout_marginEnd="11dp"
+            android:background="@drawable/round_button"
+            android:text=">"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/action3"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="312dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/round_button"
+            android:text=">"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/action4"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="571dp"
+            android:layout_marginEnd="9dp"
+            android:background="@drawable/round_button"
+            android:text=">"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="121dp"
+            android:layout_marginTop="28dp"
+            android:fontFamily="cursive"
+            android:text="Our menu"
+            android:textColor="#704E08"
+            android:textSize="50dp" />
+
+
+</RelativeLayout>

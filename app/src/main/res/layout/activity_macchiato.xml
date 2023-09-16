@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff2e9"
+    tools:context=".macchiato">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="274dp"
+        android:layout_below="@id/textView2"
+        app:srcCompat="@drawable/macchaiato" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="macchiato"
+        android:textColor="#704E08"
+        android:textSize="85dp"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView6"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="cursive"
+        android:text="Ingredients"
+        android:textColor="#864C0A"
+        android:textSize="50dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="517dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="360dp"
+        android:layout_height="218dp"
+        android:layout_below="@id/textView2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="331dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="an espresso coffee drink, topped with a small amount of foamed or steamed milk to allow the taste of the espresso to still shine through."
+        android:textColor="#49331F"
+        android:textSize="29dp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="633dp" />
+
+    <Button
+        android:id="@+id/purchase3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_button"
+        android:text="purchase"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+</RelativeLayout>
